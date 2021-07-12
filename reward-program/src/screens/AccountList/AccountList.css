@@ -1,0 +1,28 @@
+
+.account-list-hldr .account-header {
+    text-align: center;
+    background-color: #a5a50f;
+    padding: 10px 0;
+}
+
+.account-list-hldr .account-tiles {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.account-list-hldr .account-tiles span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 80px;
+    background: #9b9bd2;
+    margin: 5px 20px;
+    cursor: pointer;
+}
+
+.account-list-hldr .account-tiles span.active {
+    border: 2px solid #1616a0;
+} 
+

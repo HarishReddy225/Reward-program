@@ -1,0 +1,42 @@
+.tbl-container {
+    border: 2px dashed #ccc;
+    width: 722px;
+}
+
+.tbl-container .tbl-header {
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+}
+.tbl-container .tbl-body .tbl-row {
+    display: flex;
+}
+
+.tbl-container .tx-date {
+   width: 150px;
+   padding: 10px;
+   text-align: center;
+}
+
+.tbl-container .tx-amt {
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tbl-container .tx-pts {
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+.no-txs {
+    text-align: center;
+    color: #fff;
+    background: #ccc;
+    padding: 10px 0;
+}
+
+.no-txs.err-msg {
+    background-color: #b52222;
+}
